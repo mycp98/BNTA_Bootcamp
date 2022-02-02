@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex1 {
     public static void main(String[] args){
 
+        //use Scanner to get user to input
         Scanner input = new Scanner(System.in);
         int num1;
         int num2;

@@ -1,4 +1,4 @@
-package com.bnta.Lessons.oopExample;
+package com.bnta.Lessons.oop;
 // We are making a Person Class (template for multiple people/objects)
 //From a Person Class, we can create multiple people objects
 //Person class : Properties/Characteristics - name, age, skin colour, gender etc

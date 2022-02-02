@@ -1,4 +1,4 @@
-package com.bnta.Lessons.oopExample;
+package com.bnta.Lessons.oop;
 
 public class Calculator {
     public int add(int a, int b) {

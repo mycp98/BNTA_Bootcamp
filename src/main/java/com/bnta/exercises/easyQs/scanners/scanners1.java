@@ -1,4 +1,4 @@
 package com.bnta.exercises.easyQs.scanners;
 
-public class scanners {
+public class scanners1 {
 }

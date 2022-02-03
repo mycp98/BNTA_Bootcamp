@@ -1,5 +1,5 @@
 package com.bnta.exercises.easyQs.loops;
-
+//comment
 public class loops1 {
 
     public static void main(String[] args){

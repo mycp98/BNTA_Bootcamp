@@ -14,13 +14,12 @@ public class Ex6 {
     }
 
    public static void validateEmail(String email ) {
-            if (email.contains("@gmail.com")){
+            if (email.contains("@")){
                 System.out.println("Thank you.");
             }
             else{
                 System.out.println("Unknown email");
             }
-
          }
 
 

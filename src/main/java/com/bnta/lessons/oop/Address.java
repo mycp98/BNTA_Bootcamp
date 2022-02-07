@@ -1,4 +1,4 @@
-package com.bnta.Lessons.oop;
+package com.bnta.lessons.oop;
 
 public class Address {
     //properties of class Address:

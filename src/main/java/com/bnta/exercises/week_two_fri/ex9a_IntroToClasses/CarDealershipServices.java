@@ -1,4 +1,4 @@
-package com.bnta.exercises.week_two_fri.Ex9a;
+package com.bnta.exercises.week_two_fri.ex9a_IntroToClasses;
 //contains all the business logic/services of the object
 // 1 add car
 // 2 how many cars in the garage

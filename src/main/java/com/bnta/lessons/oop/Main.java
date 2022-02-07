@@ -1,4 +1,4 @@
-package com.bnta.Lessons.oop;
+package com.bnta.lessons.oop;
 
 //In the Main, we create our objects from the Class
 public class Main {

@@ -1,4 +1,4 @@
-package com.bnta.Lessons.oop;
+package com.bnta.lessons.oop;
 import java.util.Arrays;
 
 //Creating new Class House with properties like address, size, no. of bedrooms, people living in the house

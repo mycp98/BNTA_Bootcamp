@@ -1,4 +1,4 @@
-package com.bnta.exercises.week_three_tue.reading_files.Ex9b_usingClasses;
+package com.bnta.exercises.week_three_tue.reading_files.ex9b_usingClasses;
 
 import java.util.Objects;
 

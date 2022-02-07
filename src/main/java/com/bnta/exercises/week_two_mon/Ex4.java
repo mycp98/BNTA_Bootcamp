@@ -17,8 +17,12 @@ public class Ex4 {
 
         boolean prime = true;
 
+        if(num ==1){
+            prime = false;
+        }
+
         for(int i=2; i <= num/2; ++i){
-            if (num % i ==0){
+            if (num % i ==0 && num ==1){
                 prime = false;
                 break;
             }

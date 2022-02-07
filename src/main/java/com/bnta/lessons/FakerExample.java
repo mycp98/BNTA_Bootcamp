@@ -1,6 +1,5 @@
-package com.bnta.Lessons;
+package com.bnta.lessons;
 
-import com.github.javafaker.Address;
 import com.github.javafaker.Faker;
 
 public class FakerExample {

@@ -1,4 +1,4 @@
-package com.bnta.Lessons;
+package com.bnta.lessons;
 
 public class random {
 

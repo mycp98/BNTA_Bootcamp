@@ -6,7 +6,7 @@ public class House {
     private Address address;
     private HouseSize houseSize;
     private int numberOfBedrooms;
-    private Person[] people;    //created an array of People
+    private Person[] people;    //created an array of People.txt
 
     //constructor
     public House(Address address, HouseSize houseSize, int numberOfBedrooms, Person[] people) {

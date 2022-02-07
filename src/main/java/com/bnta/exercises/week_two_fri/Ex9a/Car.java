@@ -1,16 +1,19 @@
 package com.bnta.exercises.week_two_fri.Ex9a;
 
 public class Car {
+    //Properties
+    //accessMod Class/datatype name
     private Manufacturer manufacturer;
     private long price;
     private EngineType engineType;
 
+    //Constructor:
     public Car(Manufacturer manufacturer, long price, EngineType engineType) {
         this.manufacturer = manufacturer;
         this.price = price;
         this.engineType = engineType;
     }
-
+    //Setters, getters, toString:
     public Manufacturer getManufacturer() {
         return manufacturer;
     }

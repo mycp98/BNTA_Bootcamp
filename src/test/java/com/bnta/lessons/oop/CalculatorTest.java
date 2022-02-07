@@ -3,6 +3,7 @@ package com.bnta.lessons.oop;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class CalculatorTest {
 
@@ -22,7 +23,7 @@ class CalculatorTest {
     }
 
     @Test
-    void canDivideTwoNumbers() {
+    void canDivideTwoNumbers() throws Exception {
         //Given
         Calculator calculator = new Calculator();
         int n1 =20;
@@ -32,5 +33,22 @@ class CalculatorTest {
         //then
         int expected = 5;  //value that we as developers expect
         assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    void canDivideWithZero() {
+        //Given
+        Calculator calculator = new Calculator();
+        int n1 =4;
+        int n2 = 0;
+        //Then
+        assertThatThrownBy(() -> {      //method without a name: lambda   //catching the throw using assertThatThrownBy
+            //When
+            calculator.divide(n1,n2);
+        }).hasMessage("Cannot divide by 0");
+//        int actual = calculator.divide(n1, n2);
+//        //then
+//        int expected = 5;  //value that we as developers expect
+//        assertThat(actual).isEqualTo(expected);
     }
 }

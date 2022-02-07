@@ -5,7 +5,10 @@ public class Calculator {
         return a + b;
     }
 
-    public int divide(int a, int b) {
+    public int divide(int a, int b) throws Exception{
+        if(b==0){
+            throw new Exception("Cannot divide by 0");
+        }
         return a / b;
     }
 }

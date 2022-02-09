@@ -1,4 +1,4 @@
-package com.bnta.exercises.week_three_tue.reading_files;
+package com.bnta.exercises.easyQs.scanners;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,8 +7,12 @@ import java.util.Scanner;
 public class FileScanner {
     public static void main(String[] args){
         try{
-            File file = new File("src/main/java/com/bnta/exercises/week_three_tue/reading_files/input.txt");
+            //Create a File object from our text file:
+            File file = new File("src/main/java/com/bnta/exercises/easyQs/scanners/input.txt");
+            //Create a Scanner object which takes in our File object:
             Scanner scanner = new Scanner(file);
+
+            //while loop which checks if there is another line in the text file
             while (scanner.hasNext()){
                 System.out.println(scanner.nextLine());
             }

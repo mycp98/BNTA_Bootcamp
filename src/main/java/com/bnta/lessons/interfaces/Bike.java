@@ -14,6 +14,6 @@ public class Bike implements Vehicle {
     @Override
     public double getCurrentSpeed() {
 
-        return 0;
+        return 20.78331;
     }
 }

@@ -2,6 +2,7 @@ package com.bnta.lessons.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Person {
 
@@ -12,7 +13,9 @@ public class Person {
 
 
     //constructor:
-    public Person(String marcy, List<Vehicle> vehicles) {
+    public Person(String name, List<Vehicle> vehicles) {
+        this.name = name;
+        this.vehicles = vehicles;
     }
 
 
@@ -34,8 +37,28 @@ public class Person {
         this.vehicles = vehicles;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", vehicles=" + vehicles +
+                '}';
+    }
 
-//    private List<Car> car;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(name, person.name) && Objects.equals(vehicles, person.vehicles);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, vehicles);
+    }
+
+    //    private List<Car> car;
 //    private List<Bike> bike;
 //    private List<ElectricScooter> electricScooters;
 }

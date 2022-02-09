@@ -15,6 +15,6 @@ public class ElectricScooter implements Vehicle {
     @Override
     public double getCurrentSpeed() {
 
-        return 0;
+        return 35.78689;
     }
 }

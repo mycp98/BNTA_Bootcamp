@@ -1,5 +1,5 @@
 package com.bnta.lessons.interfaces;
-//We need to implement: otherwise wont be a vehicle
+//We need to implement: otherwise won't be a vehicle
 public class Car implements Vehicle{
     @Override
     public void move() {
@@ -16,7 +16,7 @@ public class Car implements Vehicle{
     @Override
     public double getCurrentSpeed() {
 
-        return 0;
+        return 60.65348;
     }
 
 

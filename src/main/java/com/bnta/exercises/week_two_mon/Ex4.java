@@ -22,7 +22,7 @@ public class Ex4 {
         }
 
         for(int i=2; i <= num/2; ++i){
-            if (num % i ==0 && num ==1){
+            if (num % i ==0 ){
                 prime = false;
                 break;
             }
